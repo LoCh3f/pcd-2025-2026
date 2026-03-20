@@ -128,7 +128,7 @@ public class Ball {
 	        	
 	        	double imp = -(1 + RESTITUTION_FACTOR) * dvn / (1.0/a.getMass() + 1.0/b.getMass());        
 	        	a.vel = new V2d(a.vel.x() - (imp / a.mass) * nx, a.vel.y() - (imp / a.mass) * ny);                
-	        	b.vel = new V2d(b.vel.x() + (imp / b.mass) * nx, a.vel.y() + (imp / b.mass) * ny);
+	        	b.vel = new V2d(b.vel.x() + (imp / b.mass) * nx, b.vel.y() + (imp / b.mass) * ny);
 	        }
         }
     }
