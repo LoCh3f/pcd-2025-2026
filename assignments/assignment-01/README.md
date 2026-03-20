@@ -19,10 +19,10 @@ Details:
 - if a small ball kicks another small balls in a hole, scores are not changed
 - the game ends when there are no more balls in the board and the winner is the player with the biggest score 
 - the game ends also if/when the ball of a player goes in a hole. In that case, the winner is the other player, in spite of the score.
-- To kick her/his ball, the human player can press keys - UP, DOWN, LEFT, RIGHT - to instantaneously update the velocity (simulating an impulse)
+- to kick her/his ball, the human player can press keys - UP, DOWN, LEFT, RIGHT - to instantaneously update the velocity (simulating an impulse)
   - for instance, by pressing UP the velocity vector can be updated by adding the vector (0,1)
-- Players (human and bot) play asynchronously.
-- The score of the human and bot player is displayed somewhere: in the picture: in blue, on the left (human) and on the right (bot).
+- players (human and bot) play asynchronously
+- the score of the human and bot player is displayed somewhere: in the picture: in blue, on the left (human) and on the right (bot)
 
 ### The Assignment
 
